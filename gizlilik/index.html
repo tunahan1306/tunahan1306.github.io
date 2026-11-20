@@ -29,7 +29,7 @@ nasıl işlediğini açıklar.</p>
 <h2>Kısaca</h2>
 <ul>
   <li>Hesap açmanız gerekmez; adınızı, e-postanızı ya da telefon numaranızı istemeyiz.</li>
-  <li>Oyun ilerlemeniz (Hedef 10) ve pazar listeniz (Mevsiminde Türkiye) yalnızca cihazınızda saklanır; bize gönderilmez.</li>
+  <li>Oyun ilerlemeniz (Hedef 10) ve pazar listeniz (Mevsiminde Türkiye) cihazınızda saklanır. Hedef 10'un haftalık sıralaması için takma adınız ve skorunuz çevrimiçi tutulur (aşağıda).</li>
   <li>Uygulamalar reklam gösterir. Reklamlar Google'ın AdMob hizmetiyle sunulur ve AdMob aşağıda belirtilen verileri toplar.</li>
 </ul>
 
@@ -52,12 +52,21 @@ reklam, analiz ve dolandırıcılık önleme amacıyla aşağıdaki verileri oto
 <a href="https://policies.google.com/technologies/partner-sites">Google iş ortağı siteleri ve uygulamaları</a> ve
 <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a>.</p>
 
-<h2>Haftalık sıralama (Hedef 10)</h2>
-<p>Hedef 10'un haftalık yarışmasında skorunuz Google Play Games (Android) ya da Apple Game Center (iOS) üzerinden
-sıralamaya gönderilir. Sıralamada diğer oyuncular skorunuzu ve bu hizmetlerdeki takma adınızı görür. Biz bu
-hizmetlerden e-posta adresinizi ya da gerçek adınızı almayız. Bağlantı yokken oynadığınız skor önce cihazınızda
-saklanır, bağlantı gelince gönderilir. Sıralamaya katılmak istemezseniz Play Games ya da Game Center'a giriş
-yapmamanız yeterlidir; oyun yine oynanır. Play Games verilerinizi Play Games profilinizden silebilirsiniz.</p>
+<h2>Haftalık yarışma, profil ve emojiler (Hedef 10)</h2>
+<p>Hedef 10'un haftalık yarışması, sıralaması, profili ve emojileri Google Firebase (Google Cloud) üzerinde çalışır.
+Uygulama size e-posta ya da şifre sormadan <strong>anonim</strong> bir çevrimiçi hesap açar. Bu hizmet için şunlar
+işlenir:</p>
+<table>
+  <tr><th>Veri</th><th>Neden</th><th>Kim görür</th></tr>
+  <tr><td>Anonim oyuncu kimliği</td><td>Skorunuzu ve profilinizi size bağlamak, kötüye kullanımı önlemek</td><td>Yalnız sistem</td></tr>
+  <tr><td>Seçtiğiniz takma ad, avatar ve çerçeve</td><td>Sıralamada görünmek</td><td>Bütün oyuncular</td></tr>
+  <tr><td>Haftalık en iyi skorunuz</td><td>Sıralama ve ligler; haftanın ilk üçüne çerçeve</td><td>Bütün oyuncular</td></tr>
+  <tr><td>Gönderdiğiniz ve aldığınız emojiler</td><td>Oyuncuların birbirini tebrik etmesi (sabit emoji seti, serbest metin yok)</td><td>Yalnız alıcı</td></tr>
+  <tr><td>Bildirimleriniz</td><td>Uygunsuz ad ya da hile şüphesini incelemek</td><td>Yalnız biz</td></tr>
+</table>
+<p>Veriler aktarım sırasında TLS ile şifrelenir ve Google'ın Avrupa'daki sunucularında tutulur. Bağlantı yokken
+oynadığınız skor önce cihazınızda saklanır, bağlantı gelince gönderilir. Engellediğiniz oyuncuların emojileri size
+gösterilmez. Çevrimiçi verilerinizi istediğiniz an silebilirsiniz (aşağıya bakın).</p>
 
 <h2>Onay ve tercihleriniz</h2>
 <ul>
@@ -71,9 +80,10 @@ yapmamanız yeterlidir; oyun yine oynanır. Play Games verilerinizi Play Games p
 <p>Uygulamalar 13 yaş altındaki çocuklara yönelik değildir ve bilerek çocuklardan kişisel veri toplamayız.</p>
 
 <h2>Verilerin silinmesi ve haklarınız</h2>
-<p>Bizim sunucumuzda sizinle ilgili bir veri bulunmaz; bu nedenle silinecek bir hesap yoktur. 6698 sayılı Kişisel
-Verilerin Korunması Kanunu kapsamındaki haklarınız ve Google'ın topladığı veriler için Google'a başvurabilirsiniz.
-Sorularınız için bize yazabilirsiniz.</p>
+<p>Hedef 10'da <strong>Profil › "Hesabımı ve verilerimi sil"</strong> düğmesi takma adınızı, avatarınızı, bütün
+skorlarınızı, gelen ve gönderdiğiniz emojileri ve anonim hesabınızı kalıcı olarak siler. Uygulamaya erişemiyorsanız
+<a href="/hesap-silme/">hesap silme sayfasındaki</a> adımları izleyin. 6698 sayılı Kişisel Verilerin Korunması Kanunu
+kapsamındaki haklarınız için bize yazabilirsiniz; reklam verileri için Google'a başvurabilirsiniz.</p>
 
 <h2>Değişiklikler</h2>
 <p>Bu politikayı güncellersek yürürlük tarihini değiştirir ve bu sayfada yayımlarız.</p>
